@@ -1,0 +1,191 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.gallery {
+  border: 1px solid #FF0000;
+  border-radius: 5px;}
+div.gallery:hover {
+  border: 1px solid #777;
+  background-color: #111;}
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+* {
+  box-sizing: border-box;
+}
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+body{
+background-color: black;
+color: white;
+}
+ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #333;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover:not(.active) {
+  background-color: #111;
+}
+.active {
+  background-color: #DC143C;
+}
+</style>
+</head>
+<body>
+<ul>
+    <li><a href="Movies.html" target="_self">Movies</a></li>
+  <li><a href="Movies2.html" target="_self" >TV Shows</a></li>
+  <li><a href="project1.html" target="_self">About</a></li>
+  <li style="float:right"><a class="active" href="login.html" target="_self">Login</a></li>
+</ul>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://www.youtube.com/watch?v=b9EkMc79ZSU">
+      <img src="n1.jpg" alt="Stranger Things" width="350" height="400">
+    </a>
+    <div class="desc"><b></b>Stranger Things<br><b>Director</b>:John Lasseter<br></div>
+  </div>
+</div>
+
+<div class="responsive">
+<div class="gallery">
+ <a target="_blank" href="https://www.youtube.com/watch?v=gcTkNV5Vg1E.jpg">
+<img src="n2.jpg" alt="GOT" width="350" height="400">
+</a>
+    <div class="desc"><b>GAME OF THRONES</b><br><b>Director</b>:David Benioff<br></div>
+  </div>
+</div>
+
+
+<div class="responsive">
+<div class="gallery">
+ <a target="_blank" href="n3.jpg">
+<img src="n3.jpg" alt="Money Heist" width="350" height="400">
+</a>
+    <div class="desc"><b>Money Heist</b><br><b>Director</b>:Jesus Colmenar<br></div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="n4.jpg">
+      <img src="n4.jpg" alt="PEAKY BLINDERS" width="350" height="400">
+    </a>
+    <div class="desc"><b>PEAKY BLINDERS</b><br><b>Director</b>:Tom Harper<br></div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="n5.jpg">
+      <img src="n5.jpg" alt="BREAKING BAD" width="350" height="400">
+    </a>
+    <div class="desc"><b>BREAKING BAD</b><br><b>Director</b>:Vice Gilligan<br></div>
+  </div>
+</div>
+
+<div class="responsive">
+<div class="gallery">
+ <a target="_blank" href="n6.jpg">
+<img src="n6.jpg" alt="FRIENDS" width="350" height="400">
+</a>
+    <div class="desc"><b>F.R.I.E.N.D.S.</b><br><b>Director</b>:David Crane<br></div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="n7.jpg">
+      <img src="n7.jpg" alt="Sherlock" width="350" height="400">
+    </a>
+    <div class="desc"><b>SHERLOCK</b><br><b>Director</b>:Guy Ritchie<br></div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="n8.jpg">
+      <img src="n8.jpg" alt="LUCIFER" width="350" height="400">
+    </a>
+    <div class="desc"><b>LUCIFER</b><br><b>Director</b>:Tom Kapinos<br></div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="n10.jpg">
+      <img src="n10.jpg" alt="Black Mirror" width="350" height="400">
+    </a>
+    <div class="desc"><b>Black Mirror</b><br><b>Director</b>:Joss Whedon<br></div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="n11.jpg">
+      <img src="n11.jpg" alt="Unbeleviable" width="350" height="400">
+    </a>
+    <div class="desc"><b>Unbelivable</b><br><b>Director</b>:Tony Stark<br></div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="n12.jpg">
+      <img src="n12.jpg" alt="Sabrina" width="350" height="400">
+    </a>
+    <div class="desc"><b>sabrina</b><br><b>Director</b>:Lary<br></div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="n11.jpg">
+      <img src="n11.jpg" alt="Orange is the new Black" width="350" height="400">
+    </a>
+    <div class="desc"><b>Orange is the new Black</b><br><b>Director</b>:Genndy Tartakovsky<br></div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+</body>
+<html>
+
+ 
